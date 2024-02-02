@@ -1,0 +1,142 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+}
+
+.hrt {
+    width: 50px;
+    height: 50px;
+    margin-left: 49%;
+    
+   
+}
+.card {
+    width: 300px;
+    height: 500px;
+    border: 0px solid black;
+    margin: 20px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 5px;
+    transition: 0.5s ease-in;
+    box-shadow: 2px 5px 8px black; 
+    background-color: rgba(249, 114, 188, 0.3);
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px;
+    transition: 2s ease-in;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.933);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.note {
+    color: rgba(255, 255, 255, 0.933);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: start;
+}
+
+header {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1005;
+    height: 80px;
+}
+
+header h4 {
+    position: absolute;
+    left: 10%;
+    bottom: 1rem; 
+    font-size: 1.6rem;
+}
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 156, 204);
+    transition: 1s;
+}    
+
+.ani {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.tion {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;  
+    opacity: 0; 
+    
+}
+
+.tion.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.tion.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+}
+#password-section {
+    text-align: center;
+    margin-top: 20px;
+    display: none; /* initially hide the password section */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="password"] {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
